@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.54bfd33f.css",
+    "main.js": "/portfolio/static/js/main.b656c335.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/redditDesktop.png": "/portfolio/static/media/redditDesktop.f5e4e41b0978ef4a6143.png",
+    "static/media/hero.jpg": "/portfolio/static/media/hero.31262e392cd6a703bd05.jpg",
+    "static/media/foodDesktop.png": "/portfolio/static/media/foodDesktop.fd8f92acc9faacf7eb0c.png",
+    "static/media/redditMobile.png": "/portfolio/static/media/redditMobile.028794a6633fb8959ca0.png",
+    "static/media/Gameplay.mp4": "/portfolio/static/media/Gameplay.c856baae9a4ec95aa4e3.mp4",
+    "static/media/report.pdf": "/portfolio/static/media/report.cbdfdaf9843fa754004f.pdf",
+    "static/media/portrait.PNG": "/portfolio/static/media/portrait.59f71365064d7f26ee0d.PNG",
+    "static/media/sub.png": "/portfolio/static/media/sub.a081982666eb8ed3bd41.png",
+    "static/media/subbf.png": "/portfolio/static/media/subbf.6af92355c083aaf9ae42.png",
+    "static/media/SofiaSans-Regular.ttf": "/portfolio/static/media/SofiaSans-Regular.31a7a894072add13c6ae.ttf",
+    "static/media/uwo.jpg": "/portfolio/static/media/uwo.b4513f76759dbfcf24b6.jpg",
+    "static/media/Abstract.PNG": "/portfolio/static/media/Abstract.1dbf7fa99d2239ce2e34.PNG",
+    "static/media/House.PNG": "/portfolio/static/media/House.36ed217641cb2627b856.PNG",
+    "static/media/foodMobile.png": "/portfolio/static/media/foodMobile.68b86962e0247a023f8b.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.b5115779250b743cd432.png",
+    "index.html": "/portfolio/index.html",
+    "main.54bfd33f.css.map": "/portfolio/static/css/main.54bfd33f.css.map",
+    "main.b656c335.js.map": "/portfolio/static/js/main.b656c335.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54bfd33f.css",
+    "static/js/main.b656c335.js"
+  ]
+}
