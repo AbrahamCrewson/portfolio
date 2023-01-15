@@ -1,0 +1,142 @@
+.About{
+    border-top: 7px solid rgb(223, 224, 226);
+    border-bottom: 3px solid rgb(223, 224, 226);
+    padding-bottom: 2rem;
+}
+
+
+.hOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin:9vw; 
+    margin-top: 0;
+    padding-top: 5vh;
+}
+
+.About h2{
+    margin: 5vw;
+    font-size: xx-large;
+    
+}
+.About h3{
+    margin: 3vw;
+    width: 100%;
+    text-align:left;
+    font-size: larger;
+}
+.line{
+    
+    width: 7vw;
+    height: 0;
+    border: 1px  rgb(223, 224, 226) solid;
+    color:  rgb(223, 224, 226);
+    
+}
+#Intro{
+    display: flex; 
+    flex-wrap: wrap-reverse;
+    justify-content:space-between;
+    column-gap: 2rem;
+    align-items:center; 
+    text-align: left;
+}
+#Intro div{
+   
+    width: 60%;
+}
+#Intro img{
+    height: auto;
+    width: 300px;
+    border-radius: 3rem;
+    
+    margin-right: 5vw;
+    
+}
+#Education{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#Education img{
+    width:45vw;
+    height:fit-content;
+    border-radius: 1rem;
+    margin-left: 5vw;
+}
+hr{
+    width: 80vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 2px  rgb(223, 224, 226) solid;
+    color:  rgb(223, 224, 226);
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+    list-style-type: none;
+    column-gap: 5rem;
+    row-gap: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.About li{
+    font-style: italic;
+}
+.About h4{
+    margin-left: 5rem;
+    font-size: larger;
+    
+}
+#Skills h3{
+    font-size: xx-large;
+}
+p{
+    text-align: justify;
+    margin: 2rem;
+}
+iframe{
+    width: 70vw;
+    height: 85vh;
+    border: none;
+}
+#pdf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.About a{
+    color:  rgb(223, 224, 226);
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    #Intro{
+        align-items: center;
+        justify-content: center;
+    }
+    #Intro div{
+        text-align: center;
+    }
+    #Education{
+        align-items: center;
+        justify-content: center;
+    }
+    #Education img{
+        width: 80vw;
+        height: auto;
+    }
+    ul{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    iframe{
+        width: 90vw;
+        height: 85vh;
+    }
+}

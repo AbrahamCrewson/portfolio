@@ -1,0 +1,213 @@
+.Projects{
+    border-top: 7px solid rgb(223, 224, 226);
+    border-bottom: 7px solid rgb(223, 224, 226);
+    padding-bottom: 2rem;
+}
+
+
+.hOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin:9vw; 
+    margin-top: 0;
+    padding-top: 5vh;
+}
+
+.Projects h2{
+    margin: 5vw;
+    font-size: xx-large;
+    
+}
+.Projects h3{
+    margin: 3vw;
+    width: 100%;
+    text-align:left;
+    font-size: larger;
+}
+.Projects h4{
+    margin-left: 3rem;
+    text-align:left;
+}
+
+.divider{
+    
+    width: 50vw;
+    height: 0;
+    border: 1.2px  rgb(223, 224, 226) solid;
+    color:  rgb(223, 224, 226);
+    
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+    list-style-type:square;
+    column-gap: 5rem;
+    row-gap: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.Projects li{
+    font-style: italic;
+}
+#Sub{
+    display: flex;
+    justify-content: center;
+
+
+}
+#bfafter{
+    display: flex;
+    margin-right: 3rem;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+#bfafter img{
+    width: 10vw;
+    height: fit-content;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    
+}
+#Game{
+    display: flex;
+    justify-content: center;
+
+}
+#gameplay video{
+    width:50vw;
+    height: fit-content;
+    margin-left: 3rem;
+}
+#Paint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#showcase{
+    display: flex;
+    justify-content: center;
+    margin-right: 3rem;
+    column-gap: 3rem;
+}
+#showcase img{
+    width: 25vw;
+
+}
+#Reddit{
+    display: flex;
+    justify-content: center;
+}
+#Food{
+    display: flex;
+    justify-content: center;
+}
+.desktopMobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    margin-left: 1rem;
+    column-gap: 1rem;
+}
+.desktop{
+    width:40vw;
+    height: fit-content;
+}
+.mobile{
+    width: 20vw;
+    height: fit-content;
+}
+h5{
+    margin-left: 5rem;
+}
+.Projects a{
+    color:rgb(223, 224, 226);
+    margin-left: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+    #Intro{
+        align-items: center;
+        justify-content: center;
+    }
+    #Intro div{
+        text-align: center;
+    }
+    #Education{
+        align-items: center;
+        justify-content: center;
+    }
+    #Education img{
+        width: 80vw;
+        height: auto;
+    }
+    ul{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    #Sub{
+        flex-wrap: wrap-reverse ;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #bfafter{
+        margin-right: 0rem;
+    }
+    #bfafter img{
+        width: 30vw;
+        height: fit-content;
+        
+    }
+    #Game{
+        flex-wrap: wrap ;
+        align-items: center;
+        justify-content: center; 
+    }
+    #gameplay video{
+        width:70vw;
+        height: 40vh;
+        margin-left: 0rem;
+    }
+    #Paint{
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    #showcase{
+        flex-wrap: wrap;
+        margin-right: 0rem;
+    }
+    #showcase img{
+        width: 80vw;
+    
+    }
+    #Reddit{
+        flex-wrap: wrap-reverse;
+    }
+    #Food{
+        flex-wrap: wrap-reverse;
+    }
+    .desktopMobile{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .desktop{
+        width:80vw;
+        height: fit-content;
+    }
+    .mobile{
+        width: 70vw;
+        height: fit-content;
+    }
+}
