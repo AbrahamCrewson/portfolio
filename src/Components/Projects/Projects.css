@@ -1,213 +1,181 @@
 .Projects{
-    border-top: 7px solid rgb(223, 224, 226);
-    border-bottom: 7px solid rgb(223, 224, 226);
-    padding-bottom: 2rem;
-}
-
-
-.hOne{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    margin:9vw; 
-    margin-top: 0;
-    padding-top: 5vh;
 }
-
 .Projects h2{
-    margin: 5vw;
-    font-size: xx-large;
-    
+    font-size: 4rem;
+    color: rgb(33, 24, 56);
+    font-family: 'Moirai One';
+    font-weight: bold;
 }
 .Projects h3{
-    margin: 3vw;
-    width: 100%;
-    text-align:left;
-    font-size: larger;
+    font-size: 1.5rem;
 }
 .Projects h4{
-    margin-left: 3rem;
-    text-align:left;
+    font-size: 1.2rem;
 }
-
-.divider{
-    
-    width: 50vw;
-    height: 0;
-    border: 1.2px  rgb(223, 224, 226) solid;
-    color:  rgb(223, 224, 226);
-    
+.Projects p{
+    font-size: 1rem;
 }
-
-ul{
+.Header{
     display: flex;
-    flex-wrap: wrap;
-    
-    list-style-type:square;
-    column-gap: 5rem;
-    row-gap: 2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-.Projects li{
-    font-style: italic;
-}
-#Sub{
-    display: flex;
-    justify-content: center;
-
-
-}
-#bfafter{
-    display: flex;
-    margin-right: 3rem;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    column-gap: 1rem;
+    margin-top: 150px;
 }
-#bfafter img{
-    width: 10vw;
-    height: fit-content;
+.Header h1{
+    font-family: 'Alegreya';
+    font-weight: bold;
+    color: rgb(33, 24, 56);
+    font-size:4rem;
+    background-color: inherit;
 }
-.label{
+.RecentP{
     display: flex;
     flex-direction: column;
     
 }
-#Game{
+.UniP{
     display: flex;
-    justify-content: center;
-
+    flex-direction: column;
 }
-#gameplay video{
-    width:50vw;
-    height: fit-content;
-    margin-left: 3rem;
+#Banner{
+   margin-top: 100px;
+   margin-bottom: 100px;
 }
-#Paint{
+#Banner img{
+    width:85vw;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    opacity: 70%;
+    border: none;
+    border-radius: 5px;
+}
+.ProjectList{
+    width: 80vw;
+}
+.recentProj{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 40px;
+}
+.projPc img{
+    width: 35vw;
+    height: auto;
+}
+.projMobile img{
+    width:15vw;
+    height: auto;
+}
+.projDesc{
+   
+}
+#UniP1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 50px;
+}
+.BeforeAfter{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.AppSS{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-#showcase{
-    display: flex;
-    justify-content: center;
-    margin-right: 3rem;
-    column-gap: 3rem;
+.AppSS img{
+    width:200px;
+    height: auto;
 }
-#showcase img{
-    width: 25vw;
-
-}
-#Reddit{
+#UniP2{
     display: flex;
-    justify-content: center;
-}
-#Food{
-    display: flex;
-    justify-content: center;
-}
-.desktopMobile{
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-right: 3rem;
-    margin-left: 1rem;
-    column-gap: 1rem;
+    column-gap: 100px;
 }
-.desktop{
-    width:40vw;
-    height: fit-content;
+#GameDemo video{
+    width: 600px;
+    height: auto;
 }
-.mobile{
-    width: 20vw;
-    height: fit-content;
+#UniP3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 50px;
 }
-h5{
-    margin-left: 5rem;
+.PaintSS img{
+    width:300px;
+    height: auto;
 }
-.Projects a{
-    color:rgb(223, 224, 226);
-    margin-left: 4rem;
+.bigdivider{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-bottom: 6px rgb(33, 24, 56) solid ;
+}
+.divider{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 75%;
+    align-self: center;
+    border-bottom: 2px rgb(33, 24, 56) solid ;
 }
 
-@media screen and (max-width: 600px) {
-    #Intro{
-        align-items: center;
-        justify-content: center;
+@media screen and (min-width: 2000px) {
+    .ProjectList{
+        width: 65vw;
     }
-    #Intro div{
-        text-align: center;
-    }
-    #Education{
-        align-items: center;
-        justify-content: center;
-    }
-    #Education img{
-        width: 80vw;
+    .projPc img{
+        width: 25vw;
         height: auto;
     }
-    ul{
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+    .projMobile img{
+        width: 13vw;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .AppSS img{
+        width:20vw;
+    }
+    #GameDemo video{
+        width: 50vw;
+    }
+    .PaintSS img{
+        width: 30vw;
+    }
+    #UniP1{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    #UniP2{
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+    #UniP3{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .Projects h2{
+        font-size: 3.5rem;
     }
 }
 @media screen and (max-width: 900px) {
-    #Sub{
-        flex-wrap: wrap-reverse ;
-        align-items: center;
-        justify-content: center;
-    
-    }
-    #bfafter{
-        margin-right: 0rem;
-    }
-    #bfafter img{
-        width: 30vw;
-        height: fit-content;
-        
-    }
-    #Game{
-        flex-wrap: wrap ;
-        align-items: center;
-        justify-content: center; 
-    }
-    #gameplay video{
-        width:70vw;
-        height: 40vh;
-        margin-left: 0rem;
-    }
-    #Paint{
-        flex-wrap: wrap-reverse;
-        align-items: center;
-        justify-content: center;
-    }
-    #showcase{
-        flex-wrap: wrap;
-        margin-right: 0rem;
-    }
-    #showcase img{
-        width: 80vw;
-    
-    }
-    #Reddit{
-        flex-wrap: wrap-reverse;
-    }
-    #Food{
-        flex-wrap: wrap-reverse;
-    }
-    .desktopMobile{
+    .recentProj{
         flex-direction: column;
-        row-gap: 1rem;
+        row-gap: 50px;
     }
-    .desktop{
-        width:80vw;
-        height: fit-content;
+    .projPc img{
+        width: 65vw;
     }
-    .mobile{
-        width: 70vw;
-        height: fit-content;
+    .projMobile img{
+        width: 45vw;
     }
 }

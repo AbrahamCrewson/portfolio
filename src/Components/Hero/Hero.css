@@ -1,43 +1,44 @@
 .Hero{
-    background-image: url('./hero.jpg');
-    background-position: center;
-    background-size: cover;
-    
-    width:100vw;
-    height: 800px;
+    width:100vw; 
+    height:700px;
     display: flex;
     flex-direction: column;
     
     align-items: center;
+    margin-bottom: 300px;
 }
-#Name{
+.Name{
     display: flex;
-    flex-direction: column;
-    backdrop-filter: blur(20px);
-    align-items: center;
-    text-align: center;
+    align-items: top;
+    justify-content: space-around;
+    column-gap: 10vw;
     margin-top: 15rem;
-    width: 90%;
-    border-radius: 3rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
-#Name h1{
-    color:rgb(223, 224, 226);
-    font-size:3.5rem;
+.Name h1{
+    color:rgb(33, 24, 56);
+    font-size:5rem;
+    
 }
-#Name h2{
-    color: rgb(48, 48, 48);
-    font-size:2rem;
+.Name h2{
+    color:rgb(33, 24, 56);
+    font-size:1.5rem;
+    opacity: 80%;
+    text-indent: 2vw;
+    
 }
-@media screen and (max-width: 600px) {
-    #Name{
-        border-radius: 1rem;
-    }
-    #Name h1{
-        
-        font-size:2.5rem;
-    }
-    #Name h2{
-        
-        font-size:1.5rem;
+#profile{
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    border: 1vw double rgb(147, 95, 60) ;
+    align-self: center;
+}
+@media screen and (max-width: 850px) {
+    
+    .Name{
+        flex-direction: column;
+        margin-top: 5rem;
     }
 }

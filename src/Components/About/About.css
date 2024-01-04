@@ -1,142 +1,71 @@
 .About{
-    border-top: 7px solid rgb(223, 224, 226);
-    border-bottom: 3px solid rgb(223, 224, 226);
-    padding-bottom: 2rem;
-}
-
-
-.hOne{
     display: flex;
     flex-direction: column;
+    align-items: left;
     justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    margin:9vw; 
-    margin-top: 0;
-    padding-top: 5vh;
-}
-
-.About h2{
-    margin: 5vw;
-    font-size: xx-large;
-    
-}
-.About h3{
-    margin: 3vw;
-    width: 100%;
-    text-align:left;
-    font-size: larger;
-}
-.line{
-    
-    width: 7vw;
-    height: 0;
-    border: 1px  rgb(223, 224, 226) solid;
-    color:  rgb(223, 224, 226);
-    
-}
-#Intro{
-    display: flex; 
-    flex-wrap: wrap-reverse;
-    justify-content:space-between;
-    column-gap: 2rem;
-    align-items:center; 
-    text-align: left;
-}
-#Intro div{
-   
-    width: 60%;
-}
-#Intro img{
     height: auto;
-    width: 300px;
-    border-radius: 3rem;
     
-    margin-right: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     
 }
-#Education{
+#topBox{
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(223, 181, 101);
+    align-self: flex-start;
+    border-radius:10px;
+    margin-bottom: 100px;
+    
+}
+.topper{
+    align-self:flex-start;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-   
-}
-#Education img{
-    width:45vw;
-    height:fit-content;
-    border-radius: 1rem;
-    margin-left: 5vw;
-}
-hr{
-    width: 80vw;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border: 2px  rgb(223, 224, 226) solid;
-    color:  rgb(223, 224, 226);
-}
-ul{
-    display: flex;
-    flex-wrap: wrap;
     
-    list-style-type: none;
-    column-gap: 5rem;
-    row-gap: 2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    column-gap: 20px;
 }
-.About li{
-    font-style: italic;
+
+.box{
+    width: 1rem;
+    height:1rem;
+    background-color: rgb(223, 181, 101); 
 }
-.About h4{
-    margin-left: 5rem;
-    font-size: larger;
+.boxText{
+    color:rgb(33, 24, 56);
+    font-size: 1rem;
+
+}
+.paragraph{
+    
+    width: 100%;
+}
+.paragraph h2{
+    font-family: 'Moirai One';
+    font-weight: bold;
+    font-size: 5rem;
+}
+.paragraph p{
+    font-size: 1.5rem;
     
 }
-#Skills h3{
-    font-size: xx-large;
-}
-p{
-    text-align: justify;
-    margin: 2rem;
-}
-iframe{
-    width: 70vw;
-    height: 85vh;
-    border: none;
-}
-#pdf{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.About a{
-    color:  rgb(223, 224, 226);
-    text-align: center;
+#highlight{
+    font-size: 1.7rem;
+    background-color:rgb(223, 181, 101);
+    border-radius: 3px;
 }
 @media screen and (max-width: 600px) {
-    #Intro{
-        align-items: center;
-        justify-content: center;
+    
+    .paragraph h2{
+        font-size: 12vw;
     }
-    #Intro div{
-        text-align: center;
+    .paragraph p{
+        font-size: 5vw;
     }
-    #Education{
-        align-items: center;
-        justify-content: center;
-    }
-    #Education img{
-        width: 80vw;
-        height: auto;
-    }
-    ul{
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-    }
-    iframe{
-        width: 90vw;
-        height: 85vh;
+    #highlight{
+        font-size: 6vw;
     }
 }

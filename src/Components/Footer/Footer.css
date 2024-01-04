@@ -1,0 +1,23 @@
+.Footer{
+    margin-top:100px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer div{
+    border-top: rgba(33, 24, 56,80%) 2px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+#logoBottom{
+    width: auto;
+    height: 100%;
+    width: 200px;
+    
+    
+}

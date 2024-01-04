@@ -1,0 +1,205 @@
+#Experiences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Experiences h2{
+    font-size: 2rem;
+}
+#Experiences p{
+    font-size: 1.1rem;
+}
+#Experiences h1{
+    text-align: center;
+}
+#Work{
+    width: 60vw;
+   
+}
+#Education{
+    width: 60vw;
+    
+}
+#WorkDuo{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: row;
+    column-gap: 50px;
+    width: 60vw;
+}
+.DuoImg{
+    width: 30vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.1);
+    background-size: cover;
+    
+    
+}
+.DuoDesc{
+    width: 30vw;
+    height: auto;
+    
+   
+    
+}
+.DuoDesc h2,p,ul,li{
+    background: none;
+}
+.ExpImg{
+    width: 80vw;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+#ThreeAI{
+    
+    padding: 50px;
+    background: none;
+    
+}
+#SchoolDuo{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: row;
+    column-gap: 30px;
+    width: 60vw;
+    margin-bottom: 100px;
+}
+#Experiences ul{
+    list-style-type:square;
+}
+#Experiences li{
+    font-size: 1.4rem;
+}
+
+#Courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#Courses h2{
+    font-size: 3rem;
+    color: rgb(33, 24, 56);
+    font-family: 'Moirai One';
+    font-weight: bold;
+    text-align: center;
+}
+#Courses ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+#Western{
+    width: auto;
+    height: auto;
+    padding: 50px;
+    background: none;
+}
+#Languages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Languages h2{
+    font-size: 3rem;
+    color: rgb(33, 24, 56);
+    font-family: 'Moirai One';
+    font-weight: bold;
+    text-align: center;
+}
+#Languages ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+#Research{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#Research iframe{
+    width: 100%;
+    height: 80vw;
+}
+#Research a{
+    align-self: center;
+    color: rgb(33, 24, 56);
+    text-align: center;
+
+}
+#Research h3{
+    font-size: 1.3rem;
+}
+@media screen and (min-width: 2000px) {
+    .ExpImg{
+        width: 70vw;
+    }
+    
+}
+@media screen and (max-width: 1300px) {
+    #Work{
+        width: 70vw;
+    }
+    #WorkDuo{
+        width: 70vw;
+    }
+    #SchoolDuo{
+        width: 70vw;
+    }
+    #Education{
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #WorkDuo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        width: 80vw;
+
+    }
+    .DuoDesc{
+        width: 70vw;
+    }
+    .DuoImg{
+        width: 70vw;
+    }
+
+    #Work{
+        width: 80vw;
+    }
+    #SchoolDuo{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 700px) {
+    #Courses ul{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+    #Languages ul{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+    #Courses h2{
+        font-size: 2.5rem;
+    }
+    #Languages h2{
+        font-size: 2.5rem;
+    }
+    #Research iframe{
+        width: 70vw;
+        height: 70vh;
+    }
+    #Western{
+        width: 60vw;
+    }
+    .ExpImg{
+        width: 90vw;
+        
+    }
+}
